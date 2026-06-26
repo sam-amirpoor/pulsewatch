@@ -2,6 +2,12 @@
 
 > A modern website monitoring platform for tracking uptime, SSL certificates, response time, and website availability.
 
+## Repositories
+
+- **Backend:** https://github.com/sam-amirpoor/pulsewatch-backend
+
+---
+
 ## Overview
 
 PulseWatch is an open-source website monitoring platform built with a focus on clean architecture, scalability, and software engineering best practices.
@@ -119,4 +125,4 @@ Contributions, ideas, and feedback are always welcome.
 
 ## License
 
-This project will be released under the MIT License.
+This project is licensed under the MIT License.
