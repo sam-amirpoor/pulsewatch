@@ -1,0 +1,37 @@
+<mxfile host="Electron">
+  <diagram name="PulseWatch Architecture" id="kSf38m5VeKIZnfevXYLp">
+    <mxGraphModel dx="1168" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TzLy_YTeTf1Ujo3o8q4V-18" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#dae8fc;" value="User / Browser" vertex="1">
+          <mxGeometry height="60" width="140" x="420" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="TzLy_YTeTf1Ujo3o8q4V-19" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" value="Frontend (Next.js)" vertex="1">
+          <mxGeometry height="60" width="180" x="620" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="TzLy_YTeTf1Ujo3o8q4V-20" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#fff2cc;" value="Backend (NestJS API)" vertex="1">
+          <mxGeometry height="60" width="180" x="870" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="TzLy_YTeTf1Ujo3o8q4V-21" parent="1" style="shape=cylinder;whiteSpace=wrap;html=1;fillColor=#f8cecc;" value="PostgreSQL Database" vertex="1">
+          <mxGeometry height="80" width="160" x="1120" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="TzLy_YTeTf1Ujo3o8q4V-22" edge="1" parent="1" source="TzLy_YTeTf1Ujo3o8q4V-18" style="endArrow=block;" target="TzLy_YTeTf1Ujo3o8q4V-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzLy_YTeTf1Ujo3o8q4V-23" edge="1" parent="1" source="TzLy_YTeTf1Ujo3o8q4V-19" style="endArrow=block;" target="TzLy_YTeTf1Ujo3o8q4V-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzLy_YTeTf1Ujo3o8q4V-24" edge="1" parent="1" source="TzLy_YTeTf1Ujo3o8q4V-20" style="endArrow=block;" target="TzLy_YTeTf1Ujo3o8q4V-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzLy_YTeTf1Ujo3o8q4V-25" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" value="Monitoring Cron Job" vertex="1">
+          <mxGeometry height="60" width="180" x="870" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="TzLy_YTeTf1Ujo3o8q4V-26" edge="1" parent="1" source="TzLy_YTeTf1Ujo3o8q4V-25" style="endArrow=block;" target="TzLy_YTeTf1Ujo3o8q4V-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
