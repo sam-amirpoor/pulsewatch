@@ -1,0 +1,55 @@
+<mxfile host="65bd71144e">
+    <diagram id="_LD8SFGSLyM8LGEFPreO" name="Future Architecture">
+        <mxGraphModel dx="1335" dy="1328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="iT1Ubtyb6zcHxDSHndE9-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="User" vertex="1">
+                    <mxGeometry height="50" width="120" x="270" y="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT1Ubtyb6zcHxDSHndE9-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="Frontend&#xa;(Next.js)" vertex="1">
+                    <mxGeometry height="60" width="220" x="220" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT1Ubtyb6zcHxDSHndE9-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="REST API" vertex="1">
+                    <mxGeometry height="50" width="130" x="265" y="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT1Ubtyb6zcHxDSHndE9-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="Backend&#xa;(NestJS)" vertex="1">
+                    <mxGeometry height="70" width="240" x="210" y="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT1Ubtyb6zcHxDSHndE9-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Notification Service" vertex="1">
+                    <mxGeometry height="60" width="220" x="530" y="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT1Ubtyb6zcHxDSHndE9-6" parent="1" style="shape=cylinder;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Redis / Queue" vertex="1">
+                    <mxGeometry height="70" width="220" x="220" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT1Ubtyb6zcHxDSHndE9-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Queue Worker" vertex="1">
+                    <mxGeometry height="60" width="220" x="220" y="740" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT1Ubtyb6zcHxDSHndE9-8" parent="1" style="shape=cylinder;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="PostgreSQL" vertex="1">
+                    <mxGeometry height="80" width="220" x="220" y="870" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT1Ubtyb6zcHxDSHndE9-9" edge="1" parent="1" source="iT1Ubtyb6zcHxDSHndE9-1" style="endArrow=block;" target="iT1Ubtyb6zcHxDSHndE9-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT1Ubtyb6zcHxDSHndE9-10" edge="1" parent="1" source="iT1Ubtyb6zcHxDSHndE9-2" style="endArrow=block;" target="iT1Ubtyb6zcHxDSHndE9-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT1Ubtyb6zcHxDSHndE9-11" edge="1" parent="1" source="iT1Ubtyb6zcHxDSHndE9-3" style="endArrow=block;" target="iT1Ubtyb6zcHxDSHndE9-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT1Ubtyb6zcHxDSHndE9-12" edge="1" parent="1" source="iT1Ubtyb6zcHxDSHndE9-4" style="endArrow=block;" target="iT1Ubtyb6zcHxDSHndE9-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT1Ubtyb6zcHxDSHndE9-13" edge="1" parent="1" source="iT1Ubtyb6zcHxDSHndE9-4" style="endArrow=block;" target="iT1Ubtyb6zcHxDSHndE9-5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT1Ubtyb6zcHxDSHndE9-14" edge="1" parent="1" source="iT1Ubtyb6zcHxDSHndE9-6" style="endArrow=block;" target="iT1Ubtyb6zcHxDSHndE9-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT1Ubtyb6zcHxDSHndE9-15" edge="1" parent="1" source="iT1Ubtyb6zcHxDSHndE9-7" style="endArrow=block;" target="iT1Ubtyb6zcHxDSHndE9-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
