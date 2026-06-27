@@ -215,9 +215,9 @@ The following features are planned for future releases:
 
 # Related Documentation
 
-- [02-requirements.md](https://github.com/sam-amirpoor/pulsewatch/blob/main/docs/02-requirements.md)
-- [03-system-design.md](https://github.com/sam-amirpoor/pulsewatch/blob/main/docs/03-system-design.md)
-- [04-database-design.md](https://github.com/sam-amirpoor/pulsewatch/blob/main/docs/04-database-design.md)
-- [05-api.md](https://github.com/sam-amirpoor/pulsewatch/blob/main/docs/05-api.md)
-- [06-roadmap.md](https://github.com/sam-amirpoor/pulsewatch/blob/main/docs/06-roadmap.md)
-- [07-deployment.md](https://github.com/sam-amirpoor/pulsewatch/blob/main/docs/07-deployment.md)
+- [02-requirements.md](./02-requirements.md)
+- [03-system-design.md](./03-system-design.md)
+- [04-database-design.md](./04-database-design.md)
+- [05-api.md](./05-api.md)
+- [06-roadmap.md](./06-roadmap.md)
+- [07-deployment.md](./07-deployment.md)

@@ -1,29 +1,35 @@
 # PulseWatch
 
-> A modern website monitoring platform for tracking uptime, SSL certificates, response time, and website availability.
+> An open-source website monitoring platform for tracking website availability, response time, uptime, and SSL certificate health.
+
+---
 
 ## Repositories
 
-- **Backend:** https://github.com/sam-amirpoor/pulsewatch-backend
+| Repository        | Description                                         |
+| ----------------- | --------------------------------------------------- |
+| **Documentation** | https://github.com/sam-amirpoor/pulsewatch          |
+| **Backend**       | https://github.com/sam-amirpoor/pulsewatch-backend  |
+| **Frontend**      | https://github.com/sam-amirpoor/pulsewatch-frontend |
 
 ---
 
 ## Overview
 
-PulseWatch is an open-source website monitoring platform built with a focus on clean architecture, scalability, and software engineering best practices.
+PulseWatch is a modern website monitoring platform built with software engineering best practices in mind.
 
-It allows users to monitor websites in real time, track response times, inspect SSL certificates, calculate uptime, and visualize historical performance through a modern dashboard.
+It periodically monitors websites, collects performance metrics, inspects SSL certificates, and provides historical monitoring data through a modern dashboard.
 
-This project is being built as a real-world software engineering project rather than a simple CRUD application.
+This project is designed as a real-world engineering project rather than a simple CRUD application, with a strong emphasis on documentation, clean architecture, scalability, and maintainability.
 
 ---
 
-## Planned Features
+## Features
 
-### Website Monitoring
+### Monitoring
 
-- Website health monitoring
-- Manual health checks
+- Website availability monitoring
+- Manual website checks
 - Automatic scheduled monitoring
 - HTTP status tracking
 - Response time measurement
@@ -33,22 +39,21 @@ This project is being built as a real-world software engineering project rather 
 ### SSL Monitoring
 
 - SSL certificate inspection
-- Expiration date tracking
+- Expiration tracking
 - Remaining days calculation
-- SSL status indicators
+- Certificate information
 
 ### Dashboard
 
-- Overall system overview
+- Overall monitoring overview
 - Website statistics
-- Response time analytics
-- Uptime percentage
-- Historical charts
+- Historical monitoring data
+- Performance analytics
 
 ### Authentication
 
 - JWT Authentication
-- Secure API
+- Protected REST API
 - User management
 
 ---
@@ -65,7 +70,7 @@ This project is being built as a real-world software engineering project rather 
 ### Frontend
 
 - Next.js
-- React.js
+- React
 - TypeScript
 - Tailwind CSS
 
@@ -78,7 +83,7 @@ This project is being built as a real-world software engineering project rather 
 
 ## Project Goals
 
-The primary goal of this project is to demonstrate software engineering concepts including:
+PulseWatch is primarily built to demonstrate practical software engineering concepts, including:
 
 - Clean Architecture
 - REST API Design
@@ -93,17 +98,45 @@ The primary goal of this project is to demonstrate software engineering concepts
 
 ---
 
+## Documentation
+
+Project documentation is available inside the **docs** directory.
+
+| Document                                             | Description                                |
+| ---------------------------------------------------- | ------------------------------------------ |
+| [01 - Project Overview](docs/01-project-overview.md) | General introduction and project goals     |
+| [02 - Requirements](docs/02-requirements.md)         | Functional and non-functional requirements |
+| [03 - System Design](docs/03-system-design.md)       | High-level architecture and system design  |
+| [04 - Database Design](docs/04-database-design.md)   | Database schema and relationships          |
+| [05 - API Documentation](docs/05-api.md)             | REST API specification                     |
+| [06 - Roadmap](docs/06-roadmap.md)                   | Development roadmap                        |
+| [07 - Deployment](docs/07-deployment.md)             | Deployment strategy                        |
+
+---
+
+## Diagrams
+
+System diagrams are available in the **diagrams** directory.
+
+- Architecture Diagram
+- Database ERD
+- Sequence Diagrams
+
+---
+
 ## Project Status
 
-🚧 **Currently under active development**
+🚧 **Under Active Development**
 
-The project is in its initial development phase. Features will be implemented incrementally following a documented roadmap.
+PulseWatch is currently in active development.
+
+Features are implemented incrementally following a documented roadmap while maintaining clean architecture and comprehensive documentation.
 
 ---
 
 ## Roadmap
 
-- [ ] Project setup
+- [x] Documentation structure
 - [ ] Authentication
 - [ ] Website management
 - [ ] Monitoring engine
@@ -119,7 +152,7 @@ The project is in its initial development phase. Features will be implemented in
 
 ## Contributing
 
-Contributions, ideas, and feedback are always welcome.
+Contributions, ideas, discussions, and feedback are always welcome.
 
 ---
 
