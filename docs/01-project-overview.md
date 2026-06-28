@@ -73,7 +73,6 @@ PulseWatch is intended for:
 - SSL certificate inspection
 - Expiration date monitoring
 - Remaining days calculation
-- Certificate information
 
 ---
 

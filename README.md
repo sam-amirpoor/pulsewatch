@@ -41,7 +41,6 @@ This project is designed as a real-world engineering project rather than a simpl
 - SSL certificate inspection
 - Expiration tracking
 - Remaining days calculation
-- Certificate information
 
 ### Dashboard
 
