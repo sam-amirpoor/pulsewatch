@@ -145,7 +145,6 @@ Features are implemented incrementally following a documented roadmap while main
 - [ ] Background jobs
 - [ ] Notifications
 - [ ] Docker deployment
-- [ ] Public status pages
 
 ---
 

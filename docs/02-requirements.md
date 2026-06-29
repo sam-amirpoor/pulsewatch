@@ -232,8 +232,6 @@ The system should be designed to support future features without significant arc
 
 Examples include:
 
-- Public status pages
-- Team management
 - Role-based permissions
 - API monitoring
 - Multi-region monitoring

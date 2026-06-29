@@ -245,9 +245,7 @@ Possible future entities include:
 
 - Notifications
 - Queue Jobs
-- Team Members
 - Roles & Permissions
-- Public Status Pages
 - API Monitoring
 - SSL History
 

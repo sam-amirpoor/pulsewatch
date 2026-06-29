@@ -199,7 +199,6 @@ Potential future improvements include:
 - Queue Workers
 - Distributed Monitoring
 - Notification Services
-- Public Status Pages
 
 These additions can be integrated without major architectural changes.
 

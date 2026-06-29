@@ -203,8 +203,6 @@ The following features are planned for future releases:
 - Background workers
 - Queue system
 - Notifications
-- Public status pages
-- Team management
 - Role-based permissions
 - API monitoring
 - Docker deployment

@@ -335,25 +335,6 @@ PATCH  /api/notifications/:id/read
 
 ---
 
-## Public Status Pages
-
-```http
-GET /api/status/:slug
-```
-
----
-
-## Team Management
-
-```http
-POST   /api/teams
-GET    /api/teams
-PATCH  /api/teams/:id
-DELETE /api/teams/:id
-```
-
----
-
 ## API Monitoring
 
 ```http
