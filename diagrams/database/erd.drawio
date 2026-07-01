@@ -1,0 +1,25 @@
+<mxfile host="65bd71144e">
+    <diagram id="gBDRgVyQgnWoqwGhA18m" name="ERD">
+        <mxGraphModel dx="1409" dy="1258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3jTGBDOx4SGqg_QiImgd-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="&lt;b&gt;Users&lt;/b&gt;&lt;hr/&gt;🔑 id : UUID&lt;br/&gt;email&lt;br/&gt;password_hash&lt;br/&gt;created_at&lt;br/&gt;updated_at" vertex="1">
+                    <mxGeometry height="170" width="220" x="390" y="462" as="geometry"/>
+                </mxCell>
+                <mxCell id="3jTGBDOx4SGqg_QiImgd-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" value="&lt;b&gt;Websites&lt;/b&gt;&lt;hr/&gt;🔑 id : UUID&lt;br/&gt;🔗 user_id&lt;br/&gt;name&lt;br/&gt;url&lt;br/&gt;is_active&lt;br/&gt;ssl_expiration_date&lt;br/&gt;last_ssl_check_at&lt;br/&gt;created_at&lt;br/&gt;updated_at" vertex="1">
+                    <mxGeometry height="260" width="260" x="710" y="412" as="geometry"/>
+                </mxCell>
+                <mxCell id="3jTGBDOx4SGqg_QiImgd-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" value="&lt;b&gt;MonitoringResults&lt;/b&gt;&lt;hr/&gt;🔑 id : UUID&lt;br/&gt;🔗 website_id&lt;br/&gt;status_code&lt;br/&gt;response_time_ms&lt;br/&gt;is_success&lt;br/&gt;error_message&lt;br/&gt;checked_at" vertex="1">
+                    <mxGeometry height="220" width="270" x="1080" y="442" as="geometry"/>
+                </mxCell>
+                <mxCell id="3jTGBDOx4SGqg_QiImgd-4" edge="1" parent="1" source="3jTGBDOx4SGqg_QiImgd-1" style="endArrow=ERmany;startArrow=ERone;html=1;strokeWidth=2;" target="3jTGBDOx4SGqg_QiImgd-2" value="1 : N">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3jTGBDOx4SGqg_QiImgd-5" edge="1" parent="1" source="3jTGBDOx4SGqg_QiImgd-2" style="endArrow=ERmany;startArrow=ERone;html=1;strokeWidth=2;" target="3jTGBDOx4SGqg_QiImgd-3" value="1 : N">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

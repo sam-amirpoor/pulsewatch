@@ -101,43 +101,7 @@ This table serves as the historical monitoring log and is expected to grow conti
 
 # Entity Relationships
 
-```text
-Users
-   │
-   ▼
-Websites
-   │
-   ▼
-MonitoringResults
-```
-
----
-
-# Relationship Details
-
-## User → Website
-
-Relationship:
-
-```
-One-to-Many
-```
-
-A user can register multiple websites.
-
-Each website belongs to exactly one user.
-
----
-
-## Website → Monitoring Result
-
-Relationship:
-
-```
-One-to-Many
-```
-
-Each website generates many monitoring records throughout its lifetime.
+![erd](../diagrams/database/erd.png)
 
 ---
 
