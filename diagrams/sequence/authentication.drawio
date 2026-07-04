@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="auth-sequence" name="Authentication">
-        <mxGraphModel dx="1409" dy="1258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="604" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -29,10 +29,10 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="r8y9a9RNRdMSQX6SlYom-15" edge="1" parent="1" style="edgeStyle=none;html=1;" value="">
+                <mxCell id="r8y9a9RNRdMSQX6SlYom-15" edge="1" parent="1" style="edgeStyle=none;html=1;exitX=0.498;exitY=0.391;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.507;entryY=0.39;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" value="">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="255" y="438" as="sourcePoint"/>
-                        <mxPoint x="155" y="438" as="targetPoint"/>
+                        <mxPoint x="289.82000000000005" y="600.6200000000001" as="sourcePoint"/>
+                        <mxPoint x="105.55999999999995" y="600" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="r8y9a9RNRdMSQX6SlYom-16" connectable="0" parent="r8y9a9RNRdMSQX6SlYom-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Store token" vertex="1">
@@ -54,13 +54,13 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="r8y9a9RNRdMSQX6SlYom-9" edge="1" parent="1" style="edgeStyle=none;html=1;">
+                <mxCell id="r8y9a9RNRdMSQX6SlYom-9" edge="1" parent="1" style="edgeStyle=none;html=1;entryX=0.5;entryY=0.228;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.479;exitY=0.228;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="455" y="438" as="sourcePoint"/>
-                        <mxPoint x="335" y="438" as="targetPoint"/>
+                        <mxPoint x="498.1099999999999" y="599.9999999999999" as="sourcePoint"/>
+                        <mxPoint x="290" y="599.9999999999999" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="r8y9a9RNRdMSQX6SlYom-10" connectable="0" parent="r8y9a9RNRdMSQX6SlYom-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: rgb(63, 63, 63);&quot;&gt;JWT token&lt;/span&gt;" vertex="1">
+                <mxCell id="r8y9a9RNRdMSQX6SlYom-10" connectable="0" parent="r8y9a9RNRdMSQX6SlYom-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: rgb(63, 63, 63);&quot;&gt;200 OK + JWT Access Token&lt;/span&gt;" vertex="1">
                     <mxGeometry relative="1" x="0.0026" y="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
@@ -74,7 +74,7 @@
                         <mxPoint x="545" y="438" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="r8y9a9RNRdMSQX6SlYom-8" connectable="0" parent="r8y9a9RNRdMSQX6SlYom-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="User" vertex="1">
+                <mxCell id="r8y9a9RNRdMSQX6SlYom-8" connectable="0" parent="r8y9a9RNRdMSQX6SlYom-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="User record" vertex="1">
                     <mxGeometry relative="1" x="0.0474" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
@@ -82,8 +82,31 @@
                 <mxCell id="d" parent="1" style="shape=umlLifeline;html=1;" value="PostgreSQL" vertex="1">
                     <mxGeometry height="620" width="100" x="685" y="298" as="geometry"/>
                 </mxCell>
-                <mxCell id="backend-note" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="&lt;b&gt;Backend Processing&lt;/b&gt;&lt;br&gt;&lt;br&gt;• Verify Password&lt;br&gt;• Generate JWT Access Token&lt;br&gt;• Return 200 OK" vertex="1">
-                    <mxGeometry height="95" width="180" x="410" y="183" as="geometry"/>
+                <mxCell id="backend-self-1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="560" y="500"/>
+                            <mxPoint x="560" y="540"/>
+                        </Array>
+                        <mxPoint x="500" y="500" as="sourcePoint"/>
+                        <mxPoint x="500" y="540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="backend-self-1-label" parent="backend-self-1" style="edgeLabel;html=1;" value="Verify Password" vertex="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="backend-self-2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="560" y="560"/>
+                            <mxPoint x="560" y="600"/>
+                        </Array>
+                        <mxPoint x="500" y="560" as="sourcePoint"/>
+                        <mxPoint x="500" y="600" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="backend-self-2-label" parent="backend-self-2" style="edgeLabel;html=1;" value="Generate JWT Access Token" vertex="1">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
