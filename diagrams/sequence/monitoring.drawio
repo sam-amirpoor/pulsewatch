@@ -1,0 +1,96 @@
+<mxfile host="65bd71144e">
+    <diagram id="1FnOWbSo2xjKUGM7TsVW" name="Monitoring">
+        <mxGraphModel dx="1153" dy="2129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="scheduler" parent="1" style="shape=umlLifeline;html=1;" value="Scheduler" vertex="1">
+                    <mxGeometry height="760" width="90" x="40" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="monitor" parent="1" style="shape=umlLifeline;html=1;" value="Monitoring Service" vertex="1">
+                    <mxGeometry height="760" width="120" x="250" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="website" parent="1" style="shape=umlLifeline;html=1;" value="Website" vertex="1">
+                    <mxGeometry height="760" width="90" x="530" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="db" parent="1" style="shape=umlLifeline;html=1;" value="PostgreSQL" vertex="1">
+                    <mxGeometry height="760" width="100" x="760" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="m1" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="130" y="120" as="sourcePoint"/>
+                        <mxPoint x="250" y="120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m1-label" parent="m1" style="edgeLabel;html=1;" value="Trigger (Every 1 minute)" vertex="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-60" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m2" edge="1" parent="1" source="monitor" style="endArrow=block;endFill=1;html=1;entryX=0.51;entryY=0.128;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.531;exitY=0.128;exitDx=0;exitDy=0;exitPerimeter=0;" target="db">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="360" y="120" as="sourcePoint"/>
+                        <mxPoint x="750" y="120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m2-label" parent="m2" style="edgeLabel;html=1;" value="Load Active Websites" vertex="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="m3" edge="1" parent="1" source="db" style="dashed=1;endArrow=open;html=1;exitX=0.47;exitY=0.276;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.506;entryY=0.277;entryDx=0;entryDy=0;entryPerimeter=0;" target="monitor">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="760" y="230" as="sourcePoint"/>
+                        <mxPoint x="370" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m3-label" parent="m3" style="edgeLabel;html=1;" value="Websites[]" vertex="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="m4" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="330" as="sourcePoint"/>
+                        <mxPoint x="530" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m4-label" parent="m4" style="edgeLabel;html=1;" value="GET Website" vertex="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-40" y="-10" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m5" edge="1" parent="1" style="dashed=1;endArrow=open;html=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="530" y="380" as="sourcePoint"/>
+                        <mxPoint x="370" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m5-label" parent="m5" style="edgeLabel;html=1;" value="Status + Response Time" vertex="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-60" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m6" edge="1" parent="1" source="monitor" style="endArrow=block;endFill=1;html=1;exitX=0.515;exitY=0.605;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.49;entryY=0.607;entryDx=0;entryDy=0;entryPerimeter=0;" target="db">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="480" as="sourcePoint"/>
+                        <mxPoint x="760" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m6-label" parent="m6" style="edgeLabel;html=1;" value="Insert Monitoring Result" vertex="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-45" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="qhFns2uOzVnEKGAHHVEP-1" connectable="0" parent="1" style="group" value="" vertex="1">
+                    <mxGeometry height="870" width="870" x="10" y="-60" as="geometry"/>
+                </mxCell>
+                <mxCell id="loop-frame" parent="qhFns2uOzVnEKGAHHVEP-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+                    <mxGeometry height="870" width="870" as="geometry"/>
+                </mxCell>
+                <mxCell id="loop-title" parent="qhFns2uOzVnEKGAHHVEP-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;" value="loop" vertex="1">
+                    <mxGeometry height="22.35" width="34.88" x="15.12" y="17.65" as="geometry"/>
+                </mxCell>
+                <mxCell id="loop-condition" parent="qhFns2uOzVnEKGAHHVEP-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;" value="[for each active website]" vertex="1">
+                    <mxGeometry height="22.35" width="124.4" x="59.99999999999999" y="17.65" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
