@@ -6,7 +6,7 @@ PulseWatch is an open-source website monitoring platform designed to monitor web
 
 The project continuously checks registered websites, collects monitoring data, and provides useful insights such as uptime percentage, response time, HTTP status codes, and SSL certificate expiration.
 
-PulseWatch is being developed as a real-world software engineering project with a strong focus on clean architecture, scalability, maintainability, and production-ready design.
+PulseWatch is being developed as a real-world software engineering project with a strong focus on modular architecture, scalability, maintainability, and production-ready design.
 
 ---
 
@@ -192,8 +192,7 @@ This workflow ensures that every feature is well-designed before development beg
 
 The project is currently under active development.
 
-Development follows an incremental roadmap, where features are implemented gradually while maintaining clean architecture and comprehensive documentation.
-
+Development follows an incremental roadmap, where features are implemented gradually while maintaining maintaining a modular and maintainable codebase.
 ---
 
 # Future Plans
