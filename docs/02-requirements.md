@@ -218,9 +218,9 @@ The project should follow software engineering best practices.
 
 The codebase should emphasize:
 
-- Clean Architecture
-- Modular Design
+- Modular Architecture
 - Separation of Concerns
+- SOLID Principles
 - Reusable Components
 - Readable Documentation
 
