@@ -14,12 +14,12 @@ The project is developed incrementally, with each milestone introducing a new se
 
 - [x] Initialize NestJS project
 - [x] Configure TypeScript
-- [ ] Configure ESLint & Prettier
-- [ ] Configure environment variables
-- [ ] Configure PostgreSQL
-- [ ] Configure TypeORM
-- [ ] Create project structure
-- [ ] Initial GitHub repository setup
+- [x] Configure ESLint & Prettier
+- [x] Configure environment variables
+- [x] Configure PostgreSQL
+- [x] Configure TypeORM
+- [x] Create project structure
+- [x] Initial GitHub repository setup
 
 ---
 
