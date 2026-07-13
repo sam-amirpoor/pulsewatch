@@ -4,8 +4,7 @@
 
 This roadmap outlines the planned development stages of PulseWatch.
 
-The project is developed incrementally, with each milestone introducing a new set of features while maintaining clean architecture, documentation, and production-ready code quality.
-
+The project is developed incrementally, with each milestone introducing a new set of features while maintaining clean code, modular architecture, documentation, and production-ready quality.
 ---
 
 # Version 0.1.0
