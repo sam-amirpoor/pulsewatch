@@ -61,7 +61,6 @@ Stores websites monitored by the system.
 - name
 - url
 - is_active
-- check_interval
 - ssl_expiration_date
 - last_ssl_check_at
 - created_at
