@@ -26,11 +26,11 @@ The project is developed incrementally, with each milestone introducing a new se
 
 ## Authentication
 
-- [ ] User registration
-- [ ] User login
-- [ ] Password hashing
-- [ ] JWT authentication
-- [ ] Authentication Guard
+- [x] User registration
+- [x] User login
+- [x] Password hashing
+- [x] JWT authentication
+- [x] Authentication Guard
 - [ ] Protected routes
 - [ ] Current user endpoint
 
