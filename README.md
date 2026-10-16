@@ -136,7 +136,7 @@ Features are implemented incrementally following a documented roadmap while main
 ## Roadmap
 
 - [x] Documentation structure
-- [ ] Authentication
+- [x] Authentication
 - [ ] Website management
 - [ ] Monitoring engine
 - [ ] SSL monitoring
