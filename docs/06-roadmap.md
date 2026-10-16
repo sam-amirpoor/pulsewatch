@@ -32,7 +32,7 @@ The project is developed incrementally, with each milestone introducing a new se
 - [x] JWT authentication
 - [x] Authentication Guard
 - [x] Protected routes
-- [ ] Current user endpoint
+- [x] Current user endpoint
 
 ---
 
