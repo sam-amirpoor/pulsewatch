@@ -31,7 +31,7 @@ The project is developed incrementally, with each milestone introducing a new se
 - [x] Password hashing
 - [x] JWT authentication
 - [x] Authentication Guard
-- [ ] Protected routes
+- [x] Protected routes
 - [ ] Current user endpoint
 
 ---
